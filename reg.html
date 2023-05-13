@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>Sign Up</h1>
+        <div class="container">
+            
+            <div class="form">
+                
+                <h2 style="color: #9a0cb7; font-weight: bold;">REGISTRATION FORM</h2>
+                <form>
+                   
+                    <div class="f_name">
+                        <label for="f_name">FIRST NAME: </label>
+                        <input type="text" id="f_name" placeholder="Ex: Rohit" required>
+                    </div>
+                    <div class="l_name">
+                        <label for="l_name">LAST NAME: </label>
+                        <input type="text" id="l_name" placeholder="Ex: Sharma" required>
+                    </div>
+                    <div class="gender">
+                        <label for="gender">GENDER: </label>
+                        <input type="radio" name="male-female" id="male" value="Male">Male
+                        <input type="radio" name="male-female" id="female" value="Female">Female
+                    </div>
+                    <br>
+                    <div class="phn">
+                        <label for="phn">CONTACT NUMBER: </label>
+                        <input type="number" id="phn" placeholder="Ex: 2456397201" required>
+                    </div>
+                    <div class="email">
+                        <label for="email">EMAIL: </label>
+                        <input type="email" id="email" placeholder="Ex: rgs@gmail.com" required>
+                    </div>
+                    
+                    <div class="website">
+                        <label for="website"><Address>Address</Address></label>
+                        <input type="url" id="website" placeholder="Ex. Dadar,Mumbai,India 420005" required>
+                    </div>
+                    
+                    
+                    <div class="button">
+                        <button type="button" id="submit">SUBMIT</button>
+                        <button type="reset" id="reset">RESET</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+<div class="output">
+                <h2 style="color: #030404;">Customer Details</h2>
+                <br>
+                <div class="cardContainer" id="cardContainer">
+                </div>
+            </div>
+        </div>
+    <script src="reg.js"></script>
+</body>
+
+</html>
